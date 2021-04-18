@@ -1,31 +1,8 @@
-" Specify a directory for plugins
-" - For Neovim: stdpath('data') . '/plugged'
-" - Avoid using standard Vim directory names like 'plugin'
+
 call plug#begin('~/.vim/autoload')
-" Use release branch (recommend)
+
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
-" Make sure you use single quotes
-
-" Shorthand notation; fetches https://github.com/junegunn/vim-easy-align
-
-" Any valid git URL is allowed
-
-" Multiple Plug commands can be written in a single line using | separators
-
-" On-demand loading
-
-" Using a non-default branch
-
-" Using a tagged release; wildcard allowed (requires git 1.9.2 or above)
-
-" Plugin options
-
-" Plugin outside ~/.vim/plugged with post-update hook
-
-" Unmanaged plugin (manually installed and updated)
-
-" Initialize plugin system
 call plug#end()
 
 inoremap <silent><expr> <TAB>
